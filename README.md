@@ -32,19 +32,23 @@ git push origin gh-pages
 ```
 
 # Configuration
-This is a list of all site configuration variables used in templates. See [_config.yml](_config.yml) sample configuration.
+This is a list of all site configuration variables used in templates.
 
-  title
-  email
-  google_analytics_id
-  designer
-  navbar.menu
-  navbar.social
-  navbar.logo
-  defaults.structure.aside
-  defaults.structure.banner
-  defaults.structure.footer.nav-two
-  defaults.structure.footer.nav-three
+```
+title
+email
+google_analytics_id
+designer
+navbar.menu
+navbar.social
+navbar.logo
+defaults.structure.aside
+defaults.structure.banner
+defaults.structure.footer.nav-two
+defaults.structure.footer.nav-three
+```
+
+See [_config.yml](_config.yml) sample configuration.
 
 # Layout
 Below is the HTML structure this theme provides: Items below with "#" are identified by their `id` attribute. Others are identified by tag name. Items in "[]" are optional. Their inclusion depends on configuration. See [Configuration](#configuration).
@@ -77,10 +81,10 @@ There is basic default pages for a basic site in `pages/` directory. These defau
 
 <dl>
   <dt><a href="https://jekyllrb.com/">Jekyll</a></dt><dd>The Jekyll</dd>
-  <dt><a href="https://getbootstrap.com/">Bootstrap></a><dd>The Bootstrap</dd>
+  <dt><a href="https://getbootstrap.com/">Bootstrap</a><dd>The Bootstrap</dd>
   <dt><a href="http://fontawesome.io/">Font Awesome</a></dt><dd>Icons</dd>
-  <dt><a href="https://github.com/daviddarnes/alembic">alembic</a></dt><dd>Ripped a bunch template from this theme.</dd>
-  <dt><a href="https://gitlab.com/andrewbanchich/forty-jekyll-theme">forty-jekyll-theme</a></dt><dd>Ripped a bunch template from this theme.</dd>
+  <dt><a href="https://github.com/daviddarnes/alembic">alembic</a></dt><dd>Ripped a buncha template from this theme.</dd>
+  <dt><a href="https://gitlab.com/andrewbanchich/forty-jekyll-theme">forty-jekyll-theme</a></dt><dd>Ripped a buncha template from this theme.</dd>
   <dt><a href="https://github.com/octopress/paginate/">octopress/paginate</a></dt><dd>For pagination.</dd>
   <dt>...</dt><dd>Many more.</dd>
 <dl>
