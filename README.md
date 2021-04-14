@@ -2,11 +2,11 @@
 Provides a scaffold for a HTML site based on [bootstrap's](https://getbootstrap.com/docs/3.3/) [grid system](https://getbootstrap.com/docs/3.3/css/#grid) and bootstrap framework in general. See [Layout](#layout).
 
 # Installation
-There is two ways to install jekyll themes: 1. Clone the repo and add start adding your content to a fork. 2. Install as a jekyll ruby gem. Following only covers the former method ...
+There is two ways to install jekyll themes: 1. Clone the repo and add start adding your content to a fork. 2. Install as a jekyll ruby gem. Following only covers the former method on Linux ...
 
 ### Install Jekyll
 ```
-sudo apt-get install ruby-full build-essential zlib1g-dev
+sudo apt-get install ruby-full build-essential zlib1g-dev npm
 echo >>~/.bashrc <<EOF
 # Install Ruby Gems to ~/local/gems
 export GEM_HOME="$HOME/local/gems"
@@ -19,6 +19,7 @@ EOF
 git clone git@github.com:sgpinkus/jekyll-bootstrap-structure.git my-site
 cd my-site
 npm i
+bundle install
 edit _config.yml _fronts/* # Edit pages.
 jekyll build
 jekyll serve # Test locally

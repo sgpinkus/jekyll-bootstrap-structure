@@ -1,5 +1,6 @@
 ---
 my-margin: 20px
+my-header-height: 50px
 ---
 header, footer {
   background-color: #222;
@@ -7,7 +8,8 @@ header, footer {
 }
 
 header, footer {
-  min-height: 50px;
+  min-height: {{ page.my-header-height }};
+  height: {{ page.my-header-height }};
 }
 
 footer ul {
@@ -18,8 +20,8 @@ footer ul {
 footer li {
   list-style-type: none;
   display: inline-block;
-  height: 50px;
-  line-height: 50px;
+  height: {{ page.my-header-height }};
+  line-height: {{ page.my-header-height }};
 }
 
 footer li:not(:first-child):before {
@@ -34,9 +36,14 @@ footer li:not(:first-child):before {
   list-style-type: none;
 }
 
+#navbar {
+  height: {{ page.my-header-height }};
+}
+
 .navbar {
   border: 0;
   margin-bottom: 0;
+  height: 100%;
 }
 
 /*
