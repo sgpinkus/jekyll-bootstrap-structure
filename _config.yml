@@ -61,7 +61,7 @@ navbar:
     Contact: /contact/
     About: /about/
     Posts: /posts/
-  logo: /assets/brand-logo.png
+  logo: ~ # /assets/brand-logo.png
   social:
     github: /
     gitlab: /
